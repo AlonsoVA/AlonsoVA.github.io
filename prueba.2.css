@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.menu{
+	
+	list-style: none;
+	padding: 0;
+	background: #DCEFFA;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+
+.menu li a{
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	display: block; 
+}
+
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #98C3EC;
+}
+
+section{
+    display: flex;
+    width: 600px;
+    height: 430px;
+}
+
+section{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+
+section{
+    display: flex;
+    width: 600px;
+    height: 430px;
+}
+
+section{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+a{
+	font-family: 'Rampart One', cursive;
+}
+
+h1{
+	font-family: 'Lobster', cursive;
+}
+
+p{
+	font-family: 'Cormorant Garamond', serif;
+}
+
+body{
+	background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}

@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+
+
+.formulario{
+	width: 400px;
+	background: #24303c;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+}
+
+
+.formulario h4{
+	
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.controles{
+	width: 100px;
+	background: #24303c;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #fafbfd;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+.formulario p{
+	height: 40px;
+	text-align: center;
+	font-size: 15px;
+	line-height: 40px;
+}
+
+.formulario a{
+	
+	color: white;
+	text-decoration: none;
+}
+
+.formulario .boton{
+	
+	width: 100%;
+	background: #1ee0b6;
+	border: none;
+	padding: 12px;
+	color: aliceblue;
+	margin: 10px 0;
+	font-size: 16pz;
+}
+
+.menu{
+	
+	list-style: none;
+	padding: 0;
+	background: #A9DDFF;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+
+.menu li a{
+	text-decoration: none;
+	color: black;
+	padding: 15px;
+	display: block; 
+}
+
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #98C3EC;
+}
+
+a{
+	font-family: 'Rampart One', cursive;
+}
+
+h1{
+	font-family: 'Acme', sans-serif;
+}
+
+h3{
+	font-family: 'Acme', sans-serif;
+}
+
+p{
+	font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+body{
+	background-color: #330055;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23330055' cx='50' cy='0' r='50'/%3E%3Cg fill='%23361060' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23381d6a' cx='50' cy='100' r='50'/%3E%3Cg fill='%233b2974' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%233d337e' cx='50' cy='200' r='50'/%3E%3Cg fill='%23403e88' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23434991' cx='50' cy='300' r='50'/%3E%3Cg fill='%2346539a' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%234a5ea3' cx='50' cy='400' r='50'/%3E%3Cg fill='%234e68ac' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%235373b4' cx='50' cy='500' r='50'/%3E%3Cg fill='%23597dbc' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%235f88c4' cx='50' cy='600' r='50'/%3E%3Cg fill='%236692cc' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%236e9dd4' cx='50' cy='700' r='50'/%3E%3Cg fill='%2376a8db' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%237fb2e3' cx='50' cy='800' r='50'/%3E%3Cg fill='%2389bdea' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%2393c8f1' cx='50' cy='900' r='50'/%3E%3Cg fill='%239ed2f8' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23A9DDFF' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: contain;
+}
